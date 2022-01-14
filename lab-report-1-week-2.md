@@ -31,6 +31,7 @@ First, I exited the server. Then, I typed ssh-keygen to generate the pairs of au
 ![Image](Image5D.png)
 ![Image](Image5D.png)
 
+
 Troubleshooting when making directory:
 ![Image](Image5E.png)
 ![Image](Image5F.png)
