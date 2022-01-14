@@ -1,4 +1,5 @@
-**Lab Report 1**
+# Lab Report 1
+---
 1. Installing VScode
 I had visual studio code installed from CSE 11, so this part of lab 1 was already setup on my computer. I had to open a new terminal on VS code to get started. 
 ![Image](Image1.png)
@@ -16,7 +17,11 @@ Next, I tried a few commands. I tried ls to list the files in my current directo
 
 4. Moving Files with scp
 To form the secure shell connection, I first logged out of the remote server by typing exit. Then, I compiled and ran the two files in my current directory, WhereAmI.java and WhereAmI2.java (both files’ contents are listed at the bottom of the instructions). After using javac and java, I used the scp command to make a copy of these files to the remote server (ex: scp WhereAmI2.java cs15lwi22ana@ieng6.ucsd.edu:~/). Then, I typed ls to see the files in the remote server giving me both of the files I had copied over. I then did javac and java on the remote server to compile and run them there. 
+
+Photo 1: Trying to scp WhereAmI2.java
 ![Image](Image4A.png)
+
+Photo 2: Trying to scp WhereAmI.java
 ![Image](Image4B.png)
 
 
@@ -25,6 +30,8 @@ First, I exited the server. Then, I typed ssh-keygen to generate the pairs of au
 ![Image](Image5C.png)
 ![Image](Image5D.png)
 ![Image](Image5D.png)
+
+Troubleshooting when making directory:
 ![Image](Image5E.png)
 ![Image](Image5F.png)
 ![Image](Image5G.png)
