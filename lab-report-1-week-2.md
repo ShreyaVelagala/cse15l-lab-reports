@@ -51,7 +51,7 @@ First, I exited the server. Then, I typed `ssh-keygen` to generate the pairs of 
 
 6. ### Optimizing Remote Running
 
-To make edits to files and run them on the remote server, I did `ssh` and `cat` on the same line using quotes around `cat`. I also tried running the `javac` and `java` command on the same line separated by a semicolon. I made edits to the WhereAmI.java file and ran the `javac` and `java` commands in one line. This allowed me to use only 7 keystrokes,  2 keystrokes for the initial `javac` and `java` commands on my computer, 2 keystrokes for the `ssh`, `cat`, and passphrase, 2 keystrokes for `scp`, `javac`, and `java` on the client and 1 for the final `cat` to see if the edit worked. 
+To make edits to files and run them on the remote server, I did `ssh` and `cat` on the same line using quotes around `cat`. I also tried running the `javac` and `java` command on the same line separated by a semicolon. I made edits to the WhereAmI.java file and ran the `javac` and `java` commands in one line. This allowed me to use only 7 keystrokes,  2 keystrokes for the initial `javac` and `java` commands on my computer, 2 keystrokes for the `ssh`, `cat`, and passphrase, 2 keystrokes for `scp`, `javac`, and `java` on the server and 1 for the final `cat` to see if the edit worked. 
 ![Image](Image6A2.png)
 ![Image](Image6B2.png)
 
