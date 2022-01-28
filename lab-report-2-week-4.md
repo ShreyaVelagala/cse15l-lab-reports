@@ -31,6 +31,7 @@ Because of the symptom that the image URL printed, a solution had to be made usi
 ![Image](TestFile1.png)
 
 The failure-inducing input was a file with no links. The symptom here is that a string index out of bounds error occurred when actually an empty arraylist should be returned because no links were found in the file. The bug in this case was that the ```.indexOf()``` method assigned -1 to all the indicies of the brackets and parenthesis since they were missing so an else statement had to be used to catch instances when empty files were passed in. 
+
 ---
 
 ## 3. Code Change Diff One For Test File 2 - File with Multiple Parentheses
