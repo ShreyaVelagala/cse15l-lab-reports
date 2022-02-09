@@ -1,6 +1,11 @@
 # Lab Report 3
 ---
+
+
+
 ## Streamlining ssh Configuration 
+---
+
 
 ### 1. Editing `.ssh/config` file 
 
@@ -13,6 +18,8 @@ In this screenshot, the .ssh hidden folder is open. I opened this folder by navi
 
 ---
 
+
+
 ### 2. `ssh` command using alias to log into remote server
 
 #### Terminal command using alias and `ssh` on VScode terminal:
@@ -22,6 +29,9 @@ In this screenshot, the .ssh hidden folder is open. I opened this folder by navi
 In this screenshot, I used the command `ssh 15LServer`, which uses the alias name I created for ssh to interpret, `15LServer`. Using this command, I was able to quickly log into the remote server as shown by the cluster status table that shows up in the screenshot. 
 
 ---
+
+
+
 ### 3. `scp` command with alias to copy file to remote server
 
 #### Terminal `scp` command using alias on VScode terminal:
