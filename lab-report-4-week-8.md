@@ -8,7 +8,7 @@
 ---
 ### Expected Code Output to be Produced by Each Snippet
 #### 1. Snippet 1
-##### ```[google.com, google.com, ucsd.edu]```
+##### ```[google.com, `google.com ucsd.edu]```
 #### 2. Snippet 2
 ##### ```[a.com, a.com(()), example.com]```
 #### 2. Snippet 3
@@ -17,7 +17,7 @@
 
 ---
 ###  Code for Tests from ```MarkdownParse.java```:
-![Image](SnippetImage1.png)
+![Image](Tests.png)
 
 ---
 ### Output When Running Tests for My Implementation 
