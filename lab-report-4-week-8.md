@@ -42,3 +42,7 @@ However, Snippet3 passes because it is not mentioned as a test case failure in t
 
 #### Image for Output of Code Snippet3:
 ![Image](Snippet3.png)
+
+
+#### Answering Questions:
+##### 1. 
