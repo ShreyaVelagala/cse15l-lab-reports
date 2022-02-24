@@ -1,7 +1,8 @@
 # Lab Report 3
 ---
-### Links to Repositories: 
+### Link to my MarkdownParse Repository: 
 >[Link to my MarkdownParse Repository](https://github.com/ShreyaVelagala/markdown-parse)
+### Link to my MarkdownParse Repository of Group Reviewed:
 >[Link to my MarkdownParse Repository of Group Reviewed](https://github.com/vs2961/markdown-parse)
 ---
 ### Expected Code Output to be Produced by Each Snippet
