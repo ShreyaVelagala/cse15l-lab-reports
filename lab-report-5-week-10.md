@@ -1,7 +1,7 @@
 # Lab Report 5
 ---
 ### How I found the tests with different results:
-I first used ```diff``` with this specific command ```diff markdown-parse/out.txt MarkdownParse/results.txt```. Running this command in the linux terminal gave me many differences between my ```out.txt``` file for my group's ```MarkdownParse.java``` code and the ```results.txt``` file for the results of the other ```markdown-parse``` repository we were given. From this, I was able to find that ```test-files/494.md``` and ```test-files/194.md``` were examples of differences between the two resulting files. After finding these files, I cat into each of the them using ```cat test-files/494.md``` and ```cat test-files/194.md``` to look at what content each file had. Then I opened up the testfiles from the commonmark-spec by cloning the repository we were given and using the preview to view the files and see how the link output was suppose to look. After using diff, I manually went through the files that had different outputs to find which files has incorrect outputs from what was expected by preview. 
+I first used ```diff``` with this specific command ```diff markdown-parse/out.txt MarkdownParse/results.txt```. Running this command in the linux terminal gave me many differences between my ```out.txt``` file for my group's ```MarkdownParse.java``` code and the ```results.txt``` file for the results of the other ```markdown-parse``` repository we were given. From this, I was able to find that ```test-files/494.md``` and ```test-files/194.md``` were examples of differences between the two resulting files. After finding these files, I ```cat``` into each of the them using ```cat test-files/494.md``` and ```cat test-files/194.md``` to look at what content each file had. Then I opened up the testfiles from the commonmark-spec by cloning the repository we were given and using the preview to view the files and see how the link output was suppose to look. After using ```diff```, I manually went through the files that had different outputs to find which files has incorrect outputs from what was expected by preview. 
 
 ---
 
@@ -23,7 +23,7 @@ The bug in the code is that our code just finds the first opening parentheses an
 #### Image of Location of Bug in Code:
 The two lines where ```openParen``` and ```closeParen``` are initialized is where the bug happens because the first open parentheses and following closing parentheses are found. I used print statements to print the indicies of ```openParen``` and ```closeParen```. These indicies aligned with the first open parentheses and following closed parentheses in ```test-files/494.md``` showing that the bug did occur in this location. 
 
-The code that should be fixed would have to be in the location where the ```openParen``` and ```closeParen``` are being found because a stack or some data structure would have to be used to push and pop parentheses to find exact link locations between the opening and closing parentheses. Additionally, another stack would also have to be added here to account for the escaped brackets in this ```.md``` file as well. 
+The code that should be fixed would have to be in the location where the ```openParen``` and ```closeParen``` are being found because a stack would have to be used to push and pop parentheses to find exact link locations between the opening and closing parentheses. Additionally, another stack would also have to be added here to account for the escaped brackets in this ```.md``` file as well. 
 
 ![Image](Report5Img5.png)
 
